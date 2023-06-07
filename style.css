@@ -49,6 +49,7 @@ align-items: center;
     height: calc(100vh - 560px);
     /* background-color: #ffaeae; */
 }
+
 .search_container{
     padding: 20px;
     /* height: 100px; */
@@ -61,34 +62,100 @@ align-items: center;
     flex-direction: column;
 }
 
-.search_container input{
-    width: 100%;
+/* .search_box{
+    font-size: 14px;
     font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
-    line-height: 22px;
-    margin-bottom: 8px;
-    height: 46px;
+    color: #bdc1c6;
+    display: flex;
+    padding: 5px 14px 0 8px;
+} */
+
+.search_box{
+    font-size: 14px;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    color: #bdc1c6;
+    display: flex;
+     padding: 0 10px;
+    min-height: 44px;
+    /* background: #202124; */
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
     width: 100%;
+    max-width: 584px;
+}
+
+.search_icon_container{
+    /* width: 50px; */
+    font-size: 14px;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    color: #bdc1c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 13px;
+    margin-top: -5px;
+    height: 46px;
+}
+.search_icon_container svg {
+    font-size: 14px;
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+    margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+
+.side_icons{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    display: flex;
+    flex: 0 0 auto;
+   
+    align-items: stretch;
+    flex-direction: row;
+    height: 44px;
+}
+.side_icon{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px; 
+}
+
+.search_container input{
+    font-size: 16px;
+    flex: 100%;
+    resize: none;
     background-color: transparent;
     border: none;
     margin: 0;
     padding: 0;
     color: #e8eaed;
-    background-color: transparent;
     word-wrap: break-word;
     outline: none;
     display: flex;
     -webkit-tap-highlight-color: transparent;
-    display: flex;
-    z-index: 3;
-    min-height: 44px;
-    background: #fff;
-    border: 1px solid #dfe1e5;
-    box-shadow: none;
-    border-radius: 24px;
-    margin: 0 auto;
-    /* width: 638px;
-    width: auto; */
-    max-width: 584px
+    font-family: Helvetica Neue,Noto Naskh Arabic UI,Arial,sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+    overflow-x: hidden;
+    
 }
 
 .search_container center {
