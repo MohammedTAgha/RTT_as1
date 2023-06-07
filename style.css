@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav{
+    height: 48px;
+    width:  100%;
+    padding: 6px;
+    
+    /* background-color: #994040; */
+}
+.row{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.avatar{
+    width: 36px;
+    height:36px;
+    background-color: #ffd000;
+    border-radius: 50%;
+}
+
+
+.menu_items{
+   align-self: flex-start;
+   width: 20%;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+/* nav + div{
+    background-color: #fff;
+} */
