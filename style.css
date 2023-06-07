@@ -34,6 +34,18 @@ align-items: center;
    justify-content: space-around;
    
 }
+.flex_container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+.logo_container{
+    min-height: 92px;
+    width: 100%;
+    height: calc(100vh - 560px);
+    background-color: #ffaeae;
+}
 
 /* nav + div{
     background-color: #fff;
