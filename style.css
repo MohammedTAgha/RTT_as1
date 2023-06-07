@@ -4,6 +4,9 @@ body{
     border: 0;
 }
 
+a{
+    text-decoration: none;
+}
 nav{
     height: 48px;
     width:  100vw;
@@ -44,11 +47,11 @@ align-items: center;
     min-height: 92px;
     width: 100%;
     height: calc(100vh - 560px);
-    background-color: #ffaeae;
+    /* background-color: #ffaeae; */
 }
 .search_container{
     padding: 20px;
-    height: 100px;
+    /* height: 100px; */
     /* background-color: #f83030; */
     margin: 0 auto;
     padding-top: 6px;
@@ -89,8 +92,9 @@ align-items: center;
 }
 
 .search_container center {
-    height: 70px;
+    /* height: 70px; */
     margin-top: 20px;
+    margin-bottom:14px;
 }
 .search_container center  button {
     
