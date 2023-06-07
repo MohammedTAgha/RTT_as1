@@ -36,7 +36,22 @@ align-items: center;
    align-items: center;
    justify-content: space-around;
    
+   
 }
+.menu_icon img{
+    width: 16px;
+    color: black;
+    font: 13px/27px Roboto,Arial,sans-serif;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 4px;
+    padding-left: 4px;
+}
+
+ 
 .flex_container{
     display: flex; 
     justify-content: center;
