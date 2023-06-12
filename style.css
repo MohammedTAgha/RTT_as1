@@ -96,6 +96,8 @@ nav {
     padding-left: 13px;
     margin-top: -5px;
     height: 46px;
+    cursor: pointer;
+    
 }
 
 .search_icon_container svg {
